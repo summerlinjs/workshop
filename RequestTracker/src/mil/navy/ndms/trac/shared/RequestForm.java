@@ -8,7 +8,7 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 
 
 @XStreamAlias("request-form")
-public class RequestForm implements Serializable
+public class RequestForm extends BaseForm implements Serializable
 {
 	private static final long serialVersionUID = 1L;
 	private String name;
