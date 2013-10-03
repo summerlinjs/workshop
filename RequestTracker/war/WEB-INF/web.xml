@@ -9,6 +9,10 @@
   <servlet>
     <servlet-name>greetServlet</servlet-name>
     <servlet-class>mil.navy.ndms.trac.server.FormServiceImpl</servlet-class>
+    <init-param>
+    	<param-name>application-config</param-name>
+    	<param-value>C:/gitrepos/workshop/RequestTracker/config/application-config.xml</param-value>
+    </init-param>
   </servlet>
   
   <servlet-mapping>

@@ -1,0 +1,4 @@
+<config>
+  <form-location>C:/gitrepos/workshop/RequestTracker/forms</form-location>
+  <default-form>example-form.xml</default-form>
+</config>
